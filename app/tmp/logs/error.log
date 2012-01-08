@@ -1,0 +1,83 @@
+2011-12-28 19:41:01 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 /Applications/MAMP/htdocs/wordpress/cakephp/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-28 19:41:30 Error: [MissingTableException] Database table posts for model Post was not found.
+#0 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Model/Model.php(3238): Model->setSource('posts')
+#1 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Model/Model.php(2460): Model->getDataSource()
+#2 /Applications/MAMP/htdocs/wordpress/cakephp/app/Controller/PostsController.php(8): Model->find('all')
+#3 [internal function]: PostsController->index()
+#4 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 /Applications/MAMP/htdocs/wordpress/cakephp/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2011-12-28 19:41:35 Error: [MissingActionException] Action AppController::index() could not be found.
+#0 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/wordpress/cakephp/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-28 19:42:15 Error: [MissingTableException] Database table posts for model Post was not found.
+#0 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Model/Model.php(3238): Model->setSource('posts')
+#1 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Model/Model.php(2460): Model->getDataSource()
+#2 /Applications/MAMP/htdocs/wordpress/cakephp/app/Controller/PostsController.php(8): Model->find('all')
+#3 [internal function]: PostsController->index()
+#4 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 /Applications/MAMP/htdocs/wordpress/cakephp/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2011-12-28 19:44:37 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 /Applications/MAMP/htdocs/wordpress/cakephp/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-28 19:44:43 Error: [MissingActionException] Action AppController::index.php() could not be found.
+#0 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/wordpress/cakephp/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-28 19:45:27 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 /Applications/MAMP/htdocs/wordpress/cakephp/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-28 19:45:29 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 /Applications/MAMP/htdocs/wordpress/cakephp/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 00:31:05 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 /Applications/MAMP/htdocs/wordpress/cakephp/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 00:31:45 Error: [MissingActionException] Action AppController::Controller() could not be found.
+#0 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/wordpress/cakephp/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-29 00:39:00 Error: [MissingActionException] Action AppController::Controller() could not be found.
+#0 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/wordpress/cakephp/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-29 00:40:39 Error: [MissingActionException] Action AppController::Controller() could not be found.
+#0 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/wordpress/cakephp/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-29 00:40:49 Error: [MissingActionException] Action AppController::Controller() could not be found.
+#0 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/wordpress/cakephp/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-29 00:43:27 Error: [MissingControllerException] Controller class WordpressController could not be found.
+#0 /Applications/MAMP/htdocs/wordpress/cakephp/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 01:33:26 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/Applications/MAMP/tmp/mysql/mysql.sock' (2)" is missing, or could not be created.
+#0 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Model/Datasource/DboSource.php(244): Mysql->connect()
+#1 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Model/ConnectionManager.php(98): DboSource->__construct(Array)
+#2 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Model/Model.php(3214): ConnectionManager::getDataSource('default')
+#3 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Model/Model.php(1023): Model->setDataSource('default')
+#4 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Model/Model.php(3238): Model->setSource('posts')
+#5 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Model/Model.php(2460): Model->getDataSource()
+#6 /Applications/MAMP/htdocs/wordpress/cakephp/app/Controller/PostsController.php(8): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/wordpress/cakephp/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/wordpress/cakephp/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 /Applications/MAMP/htdocs/wordpress/cakephp/index.php(40): require('/Applications/M...')
+#13 {main}
